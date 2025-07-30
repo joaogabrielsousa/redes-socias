@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+picture.content{
+    display: flex;
+}
+img{
+    height: 50vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+div.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 300px;
+    height: 50px;
+    background-color: transparent;
+    box-shadow: inset 1px 1px 3px 1px white;
+    border-radius: 20px;
+}
+button#botao1{
+    background-image: url();
+}
+button#botao1:hover{
+    background-image: url(../imagem/meu-perfil.png);
+    background-position: center center;
+    color: transparent;
+    transition: 1.5s;
+}
+button#botao2:hover{
+    background-image: url();
+    transition: 1.5s;
+}
+button#botao3:hover{
+    background-image: url();
+    transition: 1.5s;
+}
